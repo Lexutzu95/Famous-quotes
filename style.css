@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yeseva One", cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: url("Image/5609849.jpg");
+}
+
+.container {
+  width: 560px;
+  height: 420px;
+}
+
+.header {
+  width: 75%;
+  border: 6px double hsl(0, 4%, 79%);
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 15%);
+  color: hsl(34, 78%, 91%);
+  padding: 5px;
+  margin: 13px auto;
+}
+
+.main_content {
+  width: 100%;
+  height: fit-content;
+  background-color: hsla(0, 0%, 100%, 0.4);
+  border: 6px double black;
+  border-radius: 13px;
+  padding: 20px 15px;
+  box-shadow: 4px 5px 13px;
+}
+
+.main_content .text_area {
+  font-size: 23px;
+  font-weight: medium;
+  line-height: normal;
+}
+
+.main_content .person {
+  margin: 12px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.button_area button {
+  background-color: hsla(36, 40%, 76%, 0.4);
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: hsla(36, 40%, 76%, 0.7);
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 15px;
+}
